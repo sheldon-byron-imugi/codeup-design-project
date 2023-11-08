@@ -1,3 +1,6 @@
+/** {*/
+/*    border: 1px solid grey;*/
+/*}*/
 
 .abel {
     font-family: 'Abel', sans-serif;
@@ -5,6 +8,10 @@
 
 .anton {
     font-family: 'Anton', sans-serif;
+}
+
+.navbar-toggler-icon {
+    color: black;
 }
 
 
