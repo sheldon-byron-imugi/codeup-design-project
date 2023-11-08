@@ -20,6 +20,10 @@
     width: 105px;
 }
 
+img {
+    border: 1em solid var(--dark-grey);
+}
+
 .dot {
     border-radius: 100%;
 }
@@ -60,11 +64,11 @@
 }
 
 html, body {
-    background-color: whitesmoke;
+    background-color: var(--light-grey);
 }
 
 #navbar {
-    background-color: whitesmoke;
+    background-color: var(--light-grey);
 }
 
 
