@@ -26,6 +26,10 @@ img {
 
 .dot {
     border-radius: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 .red-dot {
@@ -56,11 +60,16 @@ img {
     width: 140px;
     height: 140px;
     border: 10px solid white;
+    color:white;
+    text-transform: uppercase;
 }
 
 .little-dot {
+    font-size: small;
+    display:flex;
     width: 18px;
     height: 18px;
+    color:black;
 }
 
 html, body {
