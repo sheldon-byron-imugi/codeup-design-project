@@ -97,6 +97,9 @@ html, body {
     background-color: var(--light-grey);
 }
 
+.side-image {
+    height: 90px;
+}
 
 
 
