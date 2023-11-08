@@ -6,6 +6,12 @@
     --light-grey: #F0F0F0;
     --dark-grey: #E6E6E6;
 }
+.last-tweet{
+
+}
+.brand-title{
+    font-size: 28px;
+}
 
 .abel {
     font-family: 'Abel', sans-serif;
@@ -18,10 +24,14 @@
 .navbar-brand img {
     height: 105px;
     width: 105px;
+    padding: .5em;
 }
 
 img {
     border: 1em solid var(--dark-grey);
+}
+#navbar img{
+    border: none;
 }
 
 .dot {
