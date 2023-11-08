@@ -6,10 +6,12 @@
     --light-grey: #F0F0F0;
     --dark-grey: #E6E6E6;
 }
-.last-tweet{
+
+.last-tweet {
 
 }
-.brand-title{
+
+.brand-title {
     font-size: 28px;
 }
 
@@ -30,13 +32,18 @@
 img {
     border: 1em solid var(--dark-grey);
 }
-#navbar img{
+
+#nav-title {
+    margin-left: -1em;
+}
+
+#navbar img {
     border: none;
 }
 
 .dot {
     border-radius: 100%;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -70,16 +77,16 @@ img {
     width: 140px;
     height: 140px;
     border: 10px solid white;
-    color:white;
+    color: white;
     text-transform: uppercase;
 }
 
 .little-dot {
     font-size: small;
-    display:flex;
+    display: flex;
     width: 18px;
     height: 18px;
-    color:black;
+    color: black;
 }
 
 html, body {
