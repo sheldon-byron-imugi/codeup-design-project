@@ -1,3 +1,7 @@
+/*NOTE: Alternate import method for google fonts*/
+/*@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');*/
+
 :root {
     --red-dot: #E6563B;
     --yellow-dot: #EB9D3A;
@@ -29,7 +33,7 @@
     padding: .5em;
 }
 
-img {
+.image-border {
     border: 1em solid var(--dark-grey);
 }
 
@@ -102,4 +106,63 @@ html, body {
 }
 
 
+
+#i1 {
+    background-image: url("../images/apple-ipad.jpg");
+}
+
+#i2 {
+    background-image: url("../images/macbook.jpg");
+}
+
+#i3 {
+    background-image: url("../images/man.jpg");
+}
+
+#i4 {
+    background-image: url("../images/security.jpg");
+}
+
+
+
+
+.debugger .d-xs-block {
+    position: absolute;
+    bottom:10px;
+    left:50px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-sm-block {
+    position: absolute;
+    bottom:10px;
+    left:100px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-md-block {
+    position: absolute;
+    bottom:10px;
+    left:150px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-lg-block {
+    position: absolute;
+    bottom:10px;
+    left:200px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-xl-block {
+    position: absolute;
+    bottom:10px;
+    left:250px;
+    background-color: #00ABA9;
+    color: black;
+}
 
