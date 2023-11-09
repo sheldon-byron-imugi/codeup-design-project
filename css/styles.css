@@ -1,3 +1,7 @@
+/*NOTE: Alternate import method for google fonts*/
+/*@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');*/
+
 :root {
     --red-dot: #E6563B;
     --yellow-dot: #EB9D3A;
@@ -7,8 +11,22 @@
     --dark-grey: #E6E6E6;
 }
 
-.last-tweet {
+.heading {
+    border: 1px solid red;
+    font-size: 4em;
+    margin: auto;
+    width: 70%;
+}
 
+.sub-heading {
+    border: 1px solid red;
+    font-size: 2.5em;
+    margin: auto;
+    width: 70%;
+}
+
+.last-tweet {
+    border: 1px solid red;
 }
 
 .brand-title {
@@ -29,7 +47,7 @@
     padding: .5em;
 }
 
-img {
+.image-border {
     border: 1em solid var(--dark-grey);
 }
 
@@ -97,9 +115,96 @@ html, body {
     background-color: var(--light-grey);
 }
 
+.side {
+    gap: 1em;
+}
+
 .side-image {
-    height: 90px;
+    width: 75px;
+    height: 75px;
 }
 
 
+#i1 {
+    background-image: url("../images/apple-ipad.jpg");
+}
 
+#i2 {
+    background-image: url("../images/macbook.jpg");
+}
+
+#i3 {
+    background-image: url("../images/man.jpg");
+}
+
+#i4 {
+    background-image: url("../images/security.jpg");
+}
+
+
+.debugger .d-xs-block {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-sm-block {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-md-block {
+    position: absolute;
+    bottom: 10px;
+    left: 150px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-lg-block {
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.debugger .d-xl-block {
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    background-color: #00ABA9;
+    color: black;
+}
+
+.the-dots {
+    flex-wrap: wrap;
+    /*Note: Dots need to be 2x2 here*/
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .the-dots {
+        flex-wrap: nowrap;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
