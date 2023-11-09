@@ -4,11 +4,12 @@
 *{
     border: 1px solid grey;
 }*/
-.align-content{
+.align-content {
     display: flex;
     justify-content: center;
     margin-bottom: 2em;
 }
+
 :root {
     --red-dot: #E6563B;
     --yellow-dot: #EB9D3A;
