@@ -1,7 +1,14 @@
 /*NOTE: Alternate import method for google fonts*/
 /*@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');*/
-
+/*!*@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');*!
+*{
+    border: 1px solid grey;
+}*/
+.align-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
 :root {
     --red-dot: #E6563B;
     --yellow-dot: #EB9D3A;
@@ -191,6 +198,7 @@ html, body {
 @media (max-width: 576px) {
 
 }
+
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
