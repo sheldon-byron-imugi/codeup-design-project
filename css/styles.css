@@ -115,11 +115,14 @@ html, body {
     background-color: var(--light-grey);
 }
 
-.side-image {
-    width: 70px;
-    height: 70px;
+.side {
+    gap: 1em;
 }
 
+.side-image {
+    width: 75px;
+    height: 75px;
+}
 
 
 #i1 {
@@ -139,44 +142,42 @@ html, body {
 }
 
 
-
-
 .debugger .d-xs-block {
     position: absolute;
-    bottom:10px;
-    left:50px;
+    bottom: 10px;
+    left: 50px;
     background-color: #00ABA9;
     color: black;
 }
 
 .debugger .d-sm-block {
     position: absolute;
-    bottom:10px;
-    left:100px;
+    bottom: 10px;
+    left: 100px;
     background-color: #00ABA9;
     color: black;
 }
 
 .debugger .d-md-block {
     position: absolute;
-    bottom:10px;
-    left:150px;
+    bottom: 10px;
+    left: 150px;
     background-color: #00ABA9;
     color: black;
 }
 
 .debugger .d-lg-block {
     position: absolute;
-    bottom:10px;
-    left:200px;
+    bottom: 10px;
+    left: 200px;
     background-color: #00ABA9;
     color: black;
 }
 
 .debugger .d-xl-block {
     position: absolute;
-    bottom:10px;
-    left:250px;
+    bottom: 10px;
+    left: 250px;
     background-color: #00ABA9;
     color: black;
 }
