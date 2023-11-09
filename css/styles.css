@@ -4,6 +4,12 @@
 *{
     border: 1px solid grey;
 }*/
+.featured{
+    display: flex;
+    padding-left: .5em;
+    padding-bottom: .5em;
+    padding-top: .5em;
+}
 .card{
     background-color: var(--light-grey);
     border:transparent;
