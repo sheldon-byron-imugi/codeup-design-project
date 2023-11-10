@@ -16,50 +16,64 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<!--Because the header of a page is part of the body of the page, just as the footer. Think about this <body> as a human body: Head, middle of the body and the feet. A page has the same concept: Header (is the head), section (middle of the body), and footer (the feet).-->
+
 <body>
 
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light abel">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="layered-logo" class="img-fluid">
-        </a>
-        <span class="d-none d-lg-block me-5 fs-2 pb-2">codeup design</span>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">SERVICES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">WORK</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">BLOG</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
-                </li>
-            </ul>
+<!--The <header> HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.-->
+
+<header>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light abel">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img id="#logo" src="images/logo.png" alt="layered-logo" class="img-fluid">
+            </a>
+            <span class="d-none d-lg-block me-5 fs-2 pb-2">codeup design</span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a title="Navigate to services page to learn more" class="nav-link" aria-current="page"
+                           href="services.html"
+                           target="_self">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Navigate to work page to learn more" class="nav-link" href="work.html"
+                           target="_self">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Navigate to blog page to learn more" class="nav-link" href="blog.html"
+                           target="_self">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a title="Navigate to contact page to learn more" class="nav-link" href="contact.html"
+                           target="_self">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
+
+</header>
+
+<!--The <header> should not be included inside the <main> tag.-->
 
 <main class="container py-2 px-10">
 
-    <header class="text-center">
+    <section class="text-center">
         <h1 class="anton heading">
             VISUAL DESIGN & WEB DEVELOPMENT
         </h1>
         <h3 class="anton sub-heading py-5">
             FROM PARK CITY, UTAH
         </h3>
+    </section>
 
-    </header>
-
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="align-content col-6 col-md-3">
                 <div class="dot red-dot big-dot anton">DESIGN</div>
@@ -78,7 +92,7 @@
 
     <hr class="d-none d-md-block">
 
-    <div class="row">
+    <div class="row"> <!-- start of row -->
         <div id="left-column" class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
             <h6 class="text-center mb-5 mt-5">
                 SELECTED WORK
@@ -145,7 +159,7 @@
             </div>
         </div>
 
-        <div id="right-column" class="col d-none d-lg-block d-xl-block border-secondary m-2">
+        <aside id="right-column" class="col d-none d-lg-block d-xl-block border-secondary m-2">
             <h6 class="text-center my-5">THE LAST</h6>
 
             <section class="d-flex side my-5">
@@ -185,11 +199,17 @@
                 </p>
             </section>
 
-        </div>
+        </aside>
 
-    </div>
+    </div> <!-- end of row -->
 
 </main>
+
+<!--The <footer> should not be included inside the <main> tag.-->
+<!--The <footer> tag in HTML is used to define a footer of HTML document. This section contains the footer information (author information, copyright information, carriers, etc). The footer tag is used within the body tag.-->
+<footer>
+
+</footer>
 
 </body>
 

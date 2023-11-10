@@ -1,0 +1,7 @@
+/*Due to positioning of CSS include links, this will override global styles.*/
+:root {
+    --my-heading-color: #8c6187;
+    --my-sub-heading-color: #662211;
+    --my-success-color: #daa9da;
+    --my-info-color: #447711;
+}
